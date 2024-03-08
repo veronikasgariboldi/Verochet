@@ -54,5 +54,13 @@ h1{
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
-    margin-left: 25px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #1d9e6a;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
 }
