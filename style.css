@@ -45,6 +45,7 @@ h1{
 .col-2{
     flex-basis: 50%; /* so that each collum takes up onlz 50% of space*/
     min-width: 300px;
+    margin-left: 50px;
 }
 .col-2 img{
     max-width: 100%;
