@@ -96,26 +96,14 @@ h1{
 }
 
 .col-4{
-    max-width: 25%;
-    padding: 10px;
+    flex-basis: 25%;
+    padding: 30px;
     min-width: 200px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
 
 .col-4 img{
-    width: 100%;
-}
-
-.col-3{
-    max-width: 25%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 50px;
-    transition: transform 0.5s;
-}
-
-.col-3 img{
     width: 100%;
 }
 
@@ -150,15 +138,7 @@ h4{
 .col-4:hover{
     transform: translateY(-5px);
 }
-
-.col-3 p{
-    font-size: 14px;
-    color: #716d6d;
-}
-
-.col-3:hover{
-    transform: translateY(-5px);
-} 
+ 
 
 .footer{
     margin-bottom: 30px;
@@ -198,4 +178,8 @@ h4{
 
 .hyper-link {
     text-decoration: underline;
+}
+
+.small-containers{
+    margin: 5px;
 }
