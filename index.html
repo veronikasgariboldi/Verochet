@@ -15,7 +15,7 @@
                         <img src="./images/IMG_0719.PNG" width="125px">
                     </div>
                     <nav>
-                        <ul>
+                        <ul id="Menuitems">
                             <li> <a href="">Home</a> </li>
                             <li> <a href="">Products</a> </li>
                             <li> <a href="">About</a> </li>
@@ -91,5 +91,22 @@
                 </div>
             </div>
          </div>
+<!---------js for toggle menu -------->
+         <script>
+            var Menuitems = document.getElementById("Menuitems");
+
+            Menuitems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(Menuitems.style.maxHeight == "0px")
+                {
+                    Menuitems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    Menuitems.style.maxHeight = "0px";
+                }
+            }
+         </script>
     </body> 
 </html>
