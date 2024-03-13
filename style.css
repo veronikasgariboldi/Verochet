@@ -192,7 +192,7 @@ h4{
     display: none;
 }
 
-/* media for menu */
+/* media for menu 800px */
 
 @media only screen and (max-width: 800px){
 
@@ -223,5 +223,14 @@ h4{
     .menu-icon{
         display: block;
         cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-4{
+        flex-basis: 100%;
     }
 }
