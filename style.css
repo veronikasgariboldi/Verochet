@@ -186,7 +186,7 @@ h4{
 }
 
 .small-containers{
-    margin: 5px;
+    margin: 50px;
 }
 .menu-icon{
     width: 28px;
@@ -194,6 +194,31 @@ h4{
     display: none;
 }
 
+.page-btn{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.page-btn span{
+    display: inline-block;
+    border-radius: 20px;
+    border: 1px solid #1d9e6a;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.page-btn span:hover{
+    background-color: #f6f6e0;
+    
+}
+
+.small-containers-2{
+    margin: 50px;
+}
 /* media for menu 800px */
 
 @media only screen and (max-width: 800px){
