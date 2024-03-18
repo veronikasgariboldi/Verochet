@@ -221,6 +221,40 @@ h4{
 .small-containers-2{
     margin: 50px;
 }
+.single-creation{
+    margin-top: 80px;
+}
+
+.single-creation .col-2 img{
+    padding: 0;
+}
+.single-creation .col-2{
+    padding: 20px;
+}
+.single-creation .col-2 h4{
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-creation select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #1d9e6a;
+}
+.single-creation input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-right: 10px;
+    border: 1px solid #1d9e6a;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
 /* media for menu 800px */
 
 @media only screen and (max-width: 800px){
