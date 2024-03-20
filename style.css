@@ -266,6 +266,14 @@ input:focus{
     flex-basis: 24%;
     cursor: pointer;
 }
+
+.col{
+    margin: 20px;
+    text-align: center;
+}
+.about {
+    background: radial-gradient(#dddd97,#fff);
+}
 /* media for menu 800px */
 
 @media only screen and (max-width: 800px){
