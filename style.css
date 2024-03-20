@@ -281,34 +281,42 @@ input:focus{
     nav ul{
         position: absolute;
         top: 70px;
-        right: 5;
+        right: 0;
         background: #307e41;
-        width: 25%;
+        width: 150px;
         margin-top: 40px;
         overflow: hidden;
         transition: max-height 0.5s;
         border-radius: 10px;
+        text-align: center;
 
     }
     nav ul li{
         display: block;
-        margin-right: 50px;
+        margin: 5px 0;
+        /*  margin-right: 50px;
         margin-top: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 10px;*/
     }
     nav ul li a{
         /*! fix alignment for different resolutions*/
         color: #fff;
-        justify-content: center;
-        align-items: center;
+        display: block;
+        padding: 10px 0;
+        /*justify-content: center;
+        align-items: center;*/
     }
     .menu-icon{
         display: block;
         cursor: pointer;
     }
+    
 }
 
 @media only screen and (max-width: 600px){
+    nav ul{
+        width: 150px;
+    }
     .row{
         text-align: center;
     }
