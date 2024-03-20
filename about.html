@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>All Products - Verochet</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    </head> 
+    <body> 
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./images/IMG_0719.PNG" width="125px">
+                </div>
+                <nav>
+                    <ul id="Menuitems">
+                        <li> <a href="./index.html">Home</a> </li>
+                        <li> <a href="./products1.html">Creations</a> </li>
+                        <li> <a href="">About</a> </li>
+                        <li> <a href="">Contact</a> </li>
+                        <li> <a href="">Account</a> </li>
+                    </ul>
+                </nav>
+                <img src="./images/IMG_0731.PNG" width="60 px" height="60px"> <!--refine image later!-->
+                <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+        <!------ all creations ----->
+        <div class="small-containers-2">
+            <h2 class="title">All creations</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="./creation-detail-rose.html"><img src="./images/IMG_0746.PNG"></a>
+                    <h4><a href="./creation-detail-rose.html">Crocheted Rose</a></h4>
+                    <h6><a href="./creation-detail-rose.html">not on stem</a></h6>
+                    <p><a href="./creation-detail-rose.html">85 Kč per piece</a></p>
+                </div>
+                <div class="col-4">
+                    <a href="./creation-detail-coaster.html"><img src="./images/IMG_0766.PNG"></a>
+                    <a href="./creation-detail-coaster.html"><h4>Crocheted coaster</h4></a>
+                    <a href="./creation-detail-coaster.html"><h6>yellow</h6></a>
+                    <a href="./creation-detail-coaster.html"><p> 75 Kč per piece</p></a>
+                </div>
+                <div class="col-4">
+                    <a href="./creation-detail-lav.html"><img src="./images/IMG_0732.PNG"></a>
+                    <h4><a href="./creation-detail-lav.html">Crocheted Lavender</a></h4>
+                    <p><a href="./creation-detail-lav.html">95 Kč per piece</a></p>
+                </div>
+            </div>
+            <div class="page-btn">
+                <span class="perm">1</span>
+                <a href="./products2.html"><span>2</span></a>
+                <a href="./products3.html"><span>3</span></a>
+                <a href="./products4.html"><span>4</span></a>
+                <a href="./products2.html"><span>&#8594;</span></a>
+            </div>
+        </div>
+         <!-- footer -->
+         <div class="footer">
+            <hr>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Follow me on my socials: </h3>
+                        <div id="container-3">
+                            <img src="./images/insta.png" width="20px" height="20px">
+                            <p> instagram: <a class="hyper-link" href="https://www.instagram.com/boomveronika/">@boomveronika</a></p>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>    </h3>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow the shop on these socials: </h3>
+                        <div id="container-1">
+                            <img src="./images/insta.png" width="20px" height="20px"> 
+                            <p> instagram: <a class="hyper-link" href="https://www.instagram.com/verochet_/">@verochet_ </a></p> 
+                        </div>
+                        <div id="container-2">
+                            <img src="./images/facebook.png" width="20px" height="20px"> 
+                            <p>facebook: <a class="hyper-link" href="https://www.facebook.com/people/Veronikas-Crochet/pfbid02YWqkqCg89gaf9vZCVUZ5FETBfXrHiHoDrkqqxUNC5zdff7yD3pSS1CbGYZ58xZQ9l/">Veronika's crochet</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+<!------- js for toggle menu -------->
+         <script>
+            var Menuitems = document.getElementById("Menuitems");
+
+            Menuitems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(Menuitems.style.maxHeight == "0px")
+                {
+                    Menuitems.style.maxHeight = "200px";
+                }
+                else
+                {
+                    Menuitems.style.maxHeight = "0px";
+                }
+            }
+         </script>
+    </body> 
+</html>
