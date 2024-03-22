@@ -274,9 +274,32 @@ input:focus{
 .about {
     background: radial-gradient(#dddd97,#fff);
 }
+.button-container {
+    display: flex;
+  }
+
+.btns-cart{
+   align-items: center;
+   text-align: center;
+}
+.close:hover{
+    background: #ac4848;
+
+}
+.out:hover{
+    background: #cdbd40;
+    
+}
+.cart{
+    text-align: center;
+}
+
 /* media for menu 800px */
 
 @media only screen and (max-width: 800px){
+    .header{
+        padding-right: 15px;
+    }
 
     nav ul{
         position: absolute;
