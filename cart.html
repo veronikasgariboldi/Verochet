@@ -17,6 +17,7 @@
                     <img src="./images/IMG_0719.PNG" width="125px">
                 </div>
                 <nav>
+                    <!-- Menu -->
                     <ul id="Menuitems">
                         <li> <a href="./index.html">Home</a> </li>
                         <li> <a href="./products1.html">Creations</a> </li>
@@ -30,13 +31,26 @@
             </div>
         </div>
         <!------ cart item details ----->
-        <div class="small-containers cart">
-            <h2 class="title">Shopping cart</h2>
-                <div class="btns-cart">
-                    <a href="./products1.html" class="btn close">Close</a> 
-                    <a href="" class="btn out">Check out</a> 
-                </div>
-        </div>
+        <section class="container content-section" id="shopping-cart">
+  
+            <h3 style="text-decoration: underline;text-align: center; margin-bottom: 7%;">Shopping Cart</h3>
+           
+           <table class="table table-hover table-cart">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody class="cart-items">
+              
+               
+            </tbody>
+          </table>
+          
+          
+          </section>
          <!-- footer -->
          <div class="footer">
             <hr>
@@ -83,5 +97,7 @@
                 }
             }
          </script>
+
+        <script src="script.js"></script>
     </body> 
 </html>

@@ -187,12 +187,14 @@ h4{
 .small-containers{
     margin: 50px;
 }
+
 .menu-icon{
     width: 28px;
     margin-left: 8px;
     display: none;
 }
 
+/*all products page*/
 .page-btn{
     margin-bottom: 5px;
     text-align: center;
@@ -210,16 +212,26 @@ h4{
     cursor: pointer;
     transition: transform 0.5s;
 }
+
 .page-btn span:hover{
     background-color: #f6f6e0;
     
 }
+
 .perm{
     background-color: #f6f6e0;
 }
+
 .small-containers-2{
     margin: 50px;
 }
+
+.ups{
+    margin: 50px;
+    text-align: center;
+}
+
+/*creation - details*/
 .single-creation{
     margin-top: 80px;
 }
@@ -227,13 +239,16 @@ h4{
 .single-creation .col-2 img{
     padding: 0;
 }
+
 .single-creation .col-2{
     padding: 20px;
 }
+
 .single-creation .col-2 h4{
     font-size: 22px;
     font-weight: bold;
 }
+
 .single-creation select{
     display: block;
     padding: 10px;
@@ -242,6 +257,7 @@ h4{
     border-radius: 5px;
     border: 1px solid #1d9e6a;
 }
+
 .single-creation input{
     width: 50px;
     height: 40px;
@@ -251,13 +267,13 @@ h4{
     border: 1px solid #1d9e6a;
     border-radius: 5px;
 }
-.ups{
-    margin: 50px;
-    text-align: center;
-}
+
+/*product - details (more images)*/
+
 input:focus{
     outline: none;
 }
+
 .small-img-row{
     display: flex;
     justify-content: space-between;
@@ -274,32 +290,23 @@ input:focus{
 .about {
     background: radial-gradient(#dddd97,#fff);
 }
-.button-container {
-    display: flex;
-  }
 
-.btns-cart{
-   align-items: center;
-   text-align: center;
-}
-.close:hover{
-    background: #ac4848;
-
-}
-.out:hover{
-    background: #cdbd40;
-    
-}
-.cart{
-    text-align: center;
-}
-
+/* Menu*/
 /* media for menu 800px */
 
 @media only screen and (max-width: 800px){
     .header{
         padding-right: 15px;
     }
+
+    .col-2{
+        margin: 15px;
+    }
+
+    .col-2 select{
+        
+    }
+
 
     nav ul{
         position: absolute;
